@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GitHubUser" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorPrimary">@color/material_dynamic_neutral10</item>
+        <item name="colorOnPrimary">@color/material_dynamic_neutral10</item>
+        <item name="colorPrimaryDark">@color/material_dynamic_neutral20</item>
+        <item name="colorAccent">@color/material_dynamic_neutral10</item>
+        <item name="android:textColor">@color/material_dynamic_neutral10</item>
+
+        <item name="tabBackground">@color/white</item>
+        <item name="tabTextColor">@color/material_dynamic_neutral10</item>
+    </style>
+
+    <style name="Theme.GitHubUser" parent="Base.Theme.GitHubUser" />
+</resources>
